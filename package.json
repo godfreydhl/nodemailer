@@ -1,5 +1,5 @@
 {
-  "name": "nodemailer",
+  "name": "nodemailerprac",
   "version": "1.0.0",
   "description": "generating and sending pdf with nodemailer",
   "main": "index.js",
@@ -8,13 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/godfreydhl/nodemailer.git"
+    "url": "git+https://github.com/godfreydhl/nodemailerpac.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/godfreydhl/nodemailer/issues"
+    "url": "https://github.com/godfreydhl/nodemailerprac/issues"
   },
-  "homepage": "https://github.com/godfreydhl/nodemailer#readme"
+  "homepage": "https://github.com/godfreydhl/nodemailerprac#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.4",
+    "nodemon": "^3.0.1"
+  }
 }
