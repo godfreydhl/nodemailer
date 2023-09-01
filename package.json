@@ -1,0 +1,20 @@
+{
+  "name": "nodemailer",
+  "version": "1.0.0",
+  "description": "generating and sending pdf with nodemailer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godfreydhl/nodemailer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/godfreydhl/nodemailer/issues"
+  },
+  "homepage": "https://github.com/godfreydhl/nodemailer#readme"
+}
