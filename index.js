@@ -19,7 +19,13 @@ app.get('/', (req, res)=>{
         to: 'godfreydhl@gmail.com', 
         subject: 'Testing nidemailer',
         html: `<h1>Heading</h1>
-        <p> This is a nodemailer email. Well done G</p>`
+        <p> This is a nodemailer email. Well done G</p>`,
+        attachments:[
+            {
+                filename:'invoice.pdf',
+                path:'shop.pdf'
+            }
+        ]
     }, (err, info)=>{
         if(err) throw err;
         res.json({status:info.response})
